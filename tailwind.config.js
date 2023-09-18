@@ -9,7 +9,8 @@ module.exports = {
       'china-ivory': '#FFF6D3',
       'white':'#FFFFFF',
       'black':'#000000',
-      'gray': '#808080'
+      'gray-900': '#111827',
+      'gray-400': '#9CA3AF'
     },
     extend: {},
   },

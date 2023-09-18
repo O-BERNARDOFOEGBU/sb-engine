@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function Login() {
+  const navigate = useNavigate();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [isFormValid, setIsFormValid] = useState(false);
@@ -31,8 +33,8 @@ function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (isFormValid) {
-      // logic here or redirect to the dashboard
-      console.log('Login successful');
+      navigate('/dashboard')
+      // console.log('Login successful');
     }
   };
 
