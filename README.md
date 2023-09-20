@@ -1,6 +1,6 @@
 # STARWARS dashboard-UI
 
-Welcome to Starwars dashboard-UI! This web application is built using JavaScript, React, and Tailwind CSS. It presents to ardent starwars fans a dashboard-UI that consumes the Starwars API Allowig users to browse details of Starships, Species, People, Films, Vehicles, stimulating and updating their knowledge about starwars.
+Welcome to Starwars dashboard-UI! This web application is built using JavaScript, React, and Tailwind CSS. It presents to ardent starwars fans a dashboard-UI that consumes the Starwars API allowing users to browse details of Starships, Species, People, Films, Vehicles, stimulating and updating their knowledge about starwars.
 
 ## Table of Contents
 
