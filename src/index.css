@@ -1,3 +1,24 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Rubik:wght@400;500&display=swap');
+
+
+body{
+  font-family: 'Mulish', sans-serif;
+  font-family: 'Rubik', sans-serif;
+}
+
+
+.svg:hover .a {
+    fill: yellow;
+    color: black; 
+  }
+
+.P {
+  color:"#A3ABB7";
+}  
+  
+  

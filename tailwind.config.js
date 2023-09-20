@@ -8,9 +8,21 @@ module.exports = {
       'bermuda': '#78dcca',
       'china-ivory': '#FFF6D3',
       'white':'#FFFFFF',
+      'white-smoke':'#F6F6F6',
       'black':'#000000',
       'gray-900': '#111827',
-      'gray-400': '#9CA3AF'
+      'gray-400': '#9CA3AF',
+      'bask': '#FE06BA',
+      'inactive':'#A3ABB7',
+      'yellow': '#FFFF00',
+      'green':'#03aa92',
+      'light-green':'#03D4B6'
+    },
+    fontSize: {
+      small:'6px',
+      xs:'12px',
+      sm:'14px',
+      md:'16px'
     },
     extend: {},
   },

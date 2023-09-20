@@ -34,7 +34,6 @@ function Login() {
     e.preventDefault();
     if (isFormValid) {
       navigate('/dashboard')
-      // console.log('Login successful');
     }
   };
 
