@@ -1,9 +1,14 @@
 import React from 'react'
 
-const species = () => {
+const Species = () => {
   return (
-    <div>yoooo</div>
+    <div>
+      <div className="bg-white h-12 border-t-2 border-white-smoke">
+      
+      </div>
+     
+    </div>
   )
 }
 
-export default species
+export default Species

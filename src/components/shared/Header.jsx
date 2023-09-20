@@ -6,7 +6,7 @@ import Avatar from '../../assets/avatar.png'
 const Header = ({headerText}) => {
   return (
     <header className="bg-white h-12 flex justify-between pl-3 pr-10 items-center">
-          <h1>{headerText}</h1>
+          <h1 className='font-medium'>{headerText}</h1>
           <div className='flex items-center '> 
           <MessageIcon/>
           <BellIcon className='ml-4'/>

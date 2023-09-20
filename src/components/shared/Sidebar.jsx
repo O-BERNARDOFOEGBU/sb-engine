@@ -7,9 +7,9 @@ import {ReactComponent as BuildingLogo} from '../../assets/building.svg';
 
 const Sidebar = ({ setHeaderText }) => {
   return (
-    <div className="w-1/6 bg-white px-4 pl-4 border-r-3 text-sm  border-white-smoke">
+    <div className="w-1/6 bg-white px-4 pl-4 border-r-3 text-sm font-medium border-white-smoke">
       <StarWarsLogo className='my-4'/>
-      <nav className="mt-8">
+      <nav className="mt-8 ml-2">
         <ul className="space-y-6">
           <li className='svg flex items-center  text-inactive hover:text-black'>
             <DashboardLogo className="svg"/>
@@ -29,7 +29,7 @@ const Sidebar = ({ setHeaderText }) => {
           </li>
           <li className='svg flex items-center  text-inactive hover:text-black'>
             <DashboardLogo className="svg"/>
-            <Link to="/dashboard/species" className='pl-3'>Species</Link>
+            <Link to="/dashboard/species" className='pl-3' onClick={() => setHeaderText('Species')}>Species</Link>
           </li>
         </ul>
       </nav>

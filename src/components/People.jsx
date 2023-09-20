@@ -2,7 +2,12 @@ import React from 'react'
 
 const People = () => {
   return (
-    <div>People</div>
+    <div>
+      <div className="bg-white h-12 border-t-2 border-white-smoke">
+      
+      </div>
+     
+    </div>
   )
 }
 

@@ -6,7 +6,7 @@ import Layout from './components/shared/Layout';
 import Vehicles from './components/Vehicles';
 import Starships from './components/Starships';
 import People from './components/People';
-import Species from './components/species'
+import Species from './components/Species';
 
 
 function App() {

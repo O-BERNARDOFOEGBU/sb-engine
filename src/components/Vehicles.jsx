@@ -2,7 +2,12 @@ import React from 'react'
 
 const Vehicles = () => {
   return (
-    <div className='px-10 bg-white'>Vehicles</div>
+    <div>
+      <div className="bg-white h-12 border-t-2 border-white-smoke">
+      
+      </div>
+    
+    </div>
   )
 }
 
