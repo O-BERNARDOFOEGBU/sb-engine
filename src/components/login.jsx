@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { ReactComponent as TopLogo } from '../assets/undraw_Astronaut.svg';
+import { ReactComponent as RocketLogo } from '../assets/rocket.svg';
 
 function Login() {
   const navigate = useNavigate();
@@ -38,49 +40,56 @@ function Login() {
   };
 
   return (
-    <div >
-      <h1 className="text-2xl font-semibold mb-4">Sign in to continue to your account</h1>
-      <form onSubmit={handleSubmit} >
-        <div className="mb-4">
-          <label htmlFor="email" className="block text-gray-700 font-bold mb-2">
-            Email Address
-          </label>
-          <input
-            type="email"
-            id="email"
-            className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring focus:border-blue-300"
-            placeholder="Email Address"
-            value={email}
-            onChange={handleEmailChange}
-            required
-          />
-        </div>
-        <div className="mb-4">
-          <label htmlFor="password" className="block text-gray-700 font-bold mb-2">
-            Password
-          </label>
-          <input
-            type="password"
-            id="password"
-            className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring focus:border-blue-300"
-            placeholder="Enter Strong Password"
-            value={password}
-            onChange={handlePasswordChange}
-            required
-          />
-        </div>
-       
-          <button
-            type="submit"
-            className={`w-full bg-black text-white font-bold py-2 px-4 rounded ${
-              isFormValid ? 'hover:bg-gray-900' : 'bg-gray-400 pointer-events-auto'
-            }`}
-            disabled={!isFormValid}
-          >
-            Sign In
-          </button>
+    <div  className='flex space-x-80'>
+      <div className='w-full'>
+        <h1 className="text-xl font-semibold text-text-black ">Sign in to continue </h1>
+        <h1 className="text-xl font-semibold text-text-black mb-8"> your account</h1>
+        <form onSubmit={handleSubmit} >
+          <div className="mb-4">
+            <label htmlFor="email" className="block text-text-black font-medium mb-2">
+              Email Address
+            </label>
+            <input
+              type="email"
+              id="email"
+              className="w-80 bg-gray-98 px-2 py-1 border border-gray-400 rounded  focus:outline-none focus:border-yellow"
+              placeholder="Email Address"
+              value={email}
+              onChange={handleEmailChange}
+              required
+            />
+          </div>
+          <div className="mb-4">
+            <label htmlFor="password" className="block text-text-black  font-medium mb-2">
+              Password
+            </label>
+            <input
+              type="password"
+              id="password"
+              className="w-full bg-gray-98 px-2 py-1 border border-gray-400 rounded  focus:outline-none  focus:border-yellow"
+              placeholder="Enter Strong Password"
+              value={password}
+              onChange={handlePasswordChange}
+              required
+            />
+          </div>
         
-      </form>
+            <button
+              type="submit"
+              className={`w-full bg-black text-white font-medium py-2 px-4 mt-4 rounded ${
+                isFormValid ? 'hover:bg-gray-900' : 'bg-gray-400 pointer-events-auto'
+              }`}
+              disabled={!isFormValid}
+            >
+              Sign In
+            </button>
+          
+        </form>
+      </div>
+      <div>
+        <TopLogo className="absolute top-4 right-4" />
+        <RocketLogo className="hidden"/>
+      </div>
     </div>
   );
 }

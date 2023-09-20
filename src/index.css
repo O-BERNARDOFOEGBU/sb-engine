@@ -14,11 +14,8 @@ body{
 
 .svg:hover .a {
     fill: yellow;
-    color: black; 
+    /* color: black;  */
   }
-
-.P {
-  color:"#A3ABB7";
-}  
+ 
   
   
