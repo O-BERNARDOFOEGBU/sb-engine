@@ -51,8 +51,6 @@ Browse Starships, Species, People, Films and Vehicles Pages
 
 The following environment variables are required for the application to function properly. Create a .env file in the project root and add your values.
 
-# Paystack Configuration
-
 REACT_APP_API_BASE_URL=''
 
 ### Contributing
